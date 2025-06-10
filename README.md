@@ -23,13 +23,13 @@ When you first open the application in the browser, you may see a blank screen w
 # Rebuilding the Application
 If you need to rebuild the application:
 
-1. Install dependencies in the app directory:
+1. Make the modifications. In **_./src/app/package.json_** With **_@mui/x-data-grid-premium_** and **_@mui/x-data-grid-generator_** version **_7.29.2_** works.
+
+2. Install dependencies in the app directory:
    
    ```cd ./src/app/```
    
    ```npm install```
-
-2. Make the modifications. With **_@mui/x-data-grid-premium_** and **_@mui/x-data-grid-generator_** version **_7.29.2_** works.
 
 3. Return to the root directory and execute the build script from the root directory:
 
