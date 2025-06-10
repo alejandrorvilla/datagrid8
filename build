@@ -1,0 +1,11 @@
+webpack="node_modules/react-scripts/config/webpack.config.js"
+if grep -lrE 'drop_debugger' $webpack; then
+    sed -i "230d" $webpack
+fi
+node node_modules/lerna/cli.js run build --scope=app
+rm -rf ./app/*
+cp -a "./src/app/build/" "./app/"
+rm -r "./src/app/build"
+
+finish_time=$(date +%s)
+echo "Build time: $((finish_time - start_time)) secs."

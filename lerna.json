@@ -1,0 +1,9 @@
+{
+    "npmClient": "npm",
+    "packages": [
+        "src/*"
+    ],
+    "version": "independent",
+    "useGitVersion": true,
+    "gitVersionPrefix": "v"
+}

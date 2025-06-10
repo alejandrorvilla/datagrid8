@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://node_modules/@mui/x-data-grid/esm/index.css"],"names":[],"mappings":"AAEA,aACE,aACF","file":"2.9542f61b.chunk.css","sourcesContent":["/* Placeholder file to ensure CSS imports are working */\n\n.MuiDataGrid {\n  display: block;\n}\n"]}
