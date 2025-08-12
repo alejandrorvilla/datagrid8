@@ -6,8 +6,8 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "@mui/x-data-grid-premium": "8.5.1",
-    "@mui/x-data-grid-generator": "8.5.1"
+    "@mui/x-data-grid-premium": "8.10.0",
+    "@mui/x-data-grid-generator": "latest"
   },
   "scripts": {
     "build": "react-scripts build && rm build/static/js/*.map"
